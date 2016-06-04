@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Ouverture - Markup Test</title>
+
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/root.css" rel="stylesheet">
+    <link href="styles/site.css" rel="stylesheet">
+    <link href="styles/font-awesome.css" rel="stylesheet">
+
+    <script type="text/javascript" src="scripts/vendor/jquery.js"></script>
+    <script type="text/javascript" src="scripts/test.js"></script>
+
+</head>
+<body>
+
+    <section class="site container">
+
+        <form id="markup-test">
+            <div>
+
+                <fieldset>
+                    <legend align="center">Selecciona tu Interés:</legend>
+
+                    <div class="form-row shadowed form-item intereses even">
+                        <p class="row">
+
+                            <label for="solteria">
+                                <span class="icon-wrapper vertical-align-content"><i class="rasterized-icons solteria"></i></span>
+                                <input type="radio" id="solteria" name="interes" value="solteria">
+                                Soltería
+                            </label>
+
+                            <label for="pareja">
+                                <span class="icon-wrapper vertical-align-content"><i class="rasterized-icons pareja"></i></span>
+                                <input type="radio" id="pareja" name="interes" value="pareja">
+                                Pareja
+                            </label>
+
+                            <label for="dinero">
+                                <span class="icon-wrapper vertical-align-content"><i class="rasterized-icons dinero"></i></span>
+                                <input type="radio" id="dinero" name="interes" value="dinero">
+                                Dinero
+                            </label>
+
+                            <label for="trabajo">
+                                <span class="icon-wrapper vertical-align-content"><i class="rasterized-icons trabajo"></i></span>
+                                <input type="radio" id="trabajo"  name="interes" value="trabajo">
+                                Trabajo
+                            </label>
+
+                        </p>
+                    </div>
+                </fieldset>
+
+                <div class="form-row odd">
+                    <p class="form-item">
+                        <label aria-label="Género"><i class="fa fa-transgender"></i></label><select name="genero">
+                            <option value="">Género</option>
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
+                    </p>
+                    <hr>
+                </div>
+
+                <div class="form-row even">
+                    <p class="form-item">
+                        <label aria-label="Nombre"><i class="fa fa-user"></i></label><input type="text" name="nombre" placeholder="Nombre">
+                    </p>
+                    <hr>
+                </div>
+
+                <div class="form-row odd">
+                    <p class="form-item">
+                        <label aria-label="Fecha de nacimiento"><i class="fa fa-calendar-o"></i></label><input type="text" name="fecha_nac" placeholder="Fecha">
+                    </p>
+                    <hr>
+                </div>
+
+                <div class="form-row even">
+                    <p class="form-item">
+                        <label aria-label="Su correo"><i class="fa fa-envelope-o"></i></label><input type="text" name="email" placeholder="Su Correo">
+                    </p>
+                    <hr>
+                </div>
+
+                <div class="form-row odd">
+                    <p class="form-item">
+                        <label aria-label="Confirme su correo"><i class="fa fa-envelope-o"></i></label><input type="text" name="email_conf" placeholder="Confirme su Correo">
+                    </p>
+                    <hr>
+                </div>
+
+                <div class="form-row even">
+                    <p class="form-item terminos">
+                        <input type="checkbox" id="consejos" name="consejos">
+                        <label for="consejos" title="Yo quiero recibir, además, consejos de sus asociados">Yo quiero recibir, además, consejos de sus asociados</label><br>
+                        
+                        <input type="checkbox" id="condiciones" name="condiciones" checked>
+                        <label for="condiciones" title="Acepto las Condiciones de uso y la política de privacidad">Acepto las Condiciones de uso y la política de privacidad</label>
+                    </p>
+                </div>
+
+                <div class="form-row shadowed action">
+                    <hr>
+                    <p class="form-item form-action">
+                        <button type="submit">
+                            Haga clic <span class="highlighted">aquí</span> para su<br>
+                            videncia de amor <span class="highlighted">gratuita</span>
+                        </button>
+                    </p>
+                </div>
+
+            </div>
+        </form>
+        
+    </section>
+
+    <footer class="site container">
+        <p>
+            Test for: <a href="http://ouvertureconsulting.com/" target="_blank">ouvertureconsulting.com</a><br>
+            <br>Candidate: <a href="mailto:leandrocortese@gmail.com">Leandro Cortese</a>
+            <br>Site: <a href="http://www.leandrocortese.net" target="_blank">leandrocortese.net</a>
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+section.site {
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+footer.site {
+    font-size: 1.2em;
+    background-color: #333333;
+    color: #fff;
+    padding: 2rem;
+}
+
+h1 {
+    font-size:2.4em;
+    font-weight:bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+    font-size: 1.6em;
+    font-weight:bold;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight:bold;
+}
+
+a {
+    text-decoration:none;
+    color:#999999;
+}
+
+a:hover{
+    text-decoration:underline
+}
+
+#markup-test {
+
+    box-shadow: 0 -5px 15px 0px rgba(0, 0, 0, 0.35);
+
+    width: 275px;
+    margin: 0 auto;
+
+    border-radius: 6px;
+
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#markup-test ::-webkit-input-placeholder {
+    color: #fff;
+}
+#markup-test ::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+#markup-test :-ms-input-placeholder {
+    color: #fff;
+}
+
+#markup-test > div {
+
+    background: linear-gradient(to right, rgba(179,52,79,1) 0%, rgba(212,88,121,1) 40%, rgba(212,88,121,1) 60%, rgba(179,52,79,1) 100%);
+    border-radius: 6px;
+    box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.6) inset;
+
+    overflow: hidden;
+}
+
+#markup-test fieldset {
+    margin: .8rem 0 0;
+}
+#markup-test fieldset legend {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#markup-test hr {
+    height: 2px;
+    background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.75) 25%,rgba(255,255,255,1) 50%,rgba(255,255,255,0.75) 75%,rgba(255,255,255,0) 100%);
+
+}
+
+#markup-test .form-row.even {
+    background: linear-gradient(to right,  #9e2c44 0%,#d4587a 40%,#d4587a 60%,#9e2c44 100%);
+}
+
+#markup-test .form-row.shadowed {
+    box-shadow: 0 0px 6px 1px rgba(0, 0, 0, 0.5), inset 0 0 0 0;
+}
+
+#markup-test .form-row.focus {
+    color: #fffc00;
+}
+#markup-test .form-row.focus hr {
+    background: linear-gradient(to right,  rgba(255, 252, 0,0) 0%,rgba(255, 252, 0,0.75) 25%,rgba(255, 252, 0,1) 50%,rgba(255, 252, 0,0.75) 75%,rgba(255, 252, 0,0) 100%);
+}
+#markup-test .form-row.focus ::-webkit-input-placeholder {
+    color: #fffc00;
+}
+#markup-test .form-row.focus ::-moz-placeholder {
+    color: #fffc00;
+}
+#markup-test .form-row.focus :-ms-input-placeholder {
+    color: #fffc00;
+}
+
+#markup-test .form-item {
+    margin: 0;
+    padding: 1rem 2rem .6rem;
+}
+#markup-test .form-item i {
+    font-size: 2em;
+}
+#markup-test .form-item input[type=text],
+#markup-test .form-item select {
+    vertical-align: bottom;
+    font-weight: bold;
+    width: 210px;
+}
+
+#markup-test .form-item label[aria-label] {
+    width: 2em;
+    text-align: center;
+    display: inline-block;
+}
+#markup-test .form-item select option {
+    background: #d4587a;
+}
+
+#markup-test .form-item.intereses {
+    padding: .5rem;
+    margin: .8rem 0 0;
+}
+
+#markup-test .form-item.intereses label {
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.65;
+}
+
+#markup-test .form-item.intereses label .icon-wrapper {
+    display: block;
+    height: 46px;
+}
+
+#markup-test .form-item.intereses label:hover {
+    opacity: 1;
+}
+#markup-test .form-item.intereses label.active {
+    color: #fffc00;
+    opacity: 1;
+}
+
+#markup-test .form-item.intereses label input[type=radio] {
+    display: none;
+}
+
+#markup-test .form-item.terminos {
+    font-size: .7em;
+    line-height: 1.8em;
+
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+
+#markup-test .form-row.action {
+    background: linear-gradient(to right,  #92172d 0%,#fe2959 50%,#92172d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#markup-test .form-row.action hr {
+    opacity: .4;
+}
+
+#markup-test .form-row.action .form-item {
+    padding: 0;
+}
+
+#markup-test button[type=submit] {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'firaSansCondensedBookItalic';
+    padding: .6rem;
+}
+
+#markup-test button[type=submit] .highlighted {
+    color: #fffc00;
+    text-transform: uppercase;
+}

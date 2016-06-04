@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}

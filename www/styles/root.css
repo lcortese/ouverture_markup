@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'firaSansCondensedBook';
+    src: url('../fonts/firasanscondensed-book-webfont.woff2') format('woff2'),
+         url('../fonts/firasanscondensed-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'firaSansCondensedBookItalic';
+    src: url('../fonts/firasanscondensed-bookitalic-webfont.woff2') format('woff2'),
+         url('../fonts/firasanscondensed-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-size: 10px;
+    line-height: 1;
+}
+
+h1, h2, h3, h4, p {
+    margin: 1em 0;
+    line-height: 1.2;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+p:first-child {
+    margin-top: 0;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+p:last-child {
+    margin-bottom: 0;
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=checkbox],
+input[type=radio],
+label[for] {
+    cursor: pointer;
+}
+
+form .form-item {
+    line-height: 1;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline;
+}
+
+input[type=checkbox],
+input[type=radio],
+label[for] {
+    vertical-align: middle;
+}
+
+select,
+input[type="text"] {
+    box-sizing: border-box;
+    height: 1.8em;
+    line-height: 1.8em;
+    padding: 0 .6em;
+}
+select {
+    padding: 0 .3em;
+}
+
+.row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.row > * {
+    display: table-cell;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.vertical-align-content:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.vertical-align-content > * {
+    vertical-align: middle;
+}
+
+.rasterized-icons {
+    background-image: url(../images/rasterized-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.rasterized-icons.solteria {
+    width: 60px;
+    height: 46px;
+    background-position: 0 -1px;
+}
+.rasterized-icons.pareja {
+    width: 53px;
+    height: 36px;
+    background-position: -72px -6px;
+}
+.rasterized-icons.dinero {
+    width: 32px;
+    height: 38px;
+    background-position: -143px -6px;
+}
+.rasterized-icons.trabajo {
+    width: 45px;
+    height: 39px;
+    background-position: -194px -5px;
+}
